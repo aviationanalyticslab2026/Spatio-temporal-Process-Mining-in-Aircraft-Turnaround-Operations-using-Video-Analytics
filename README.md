@@ -15,15 +15,6 @@ Sample Size: 146 aircraft turnarounds.
 ├── models/
 │   └── yolo26_apron.pt          # YOLO-26 object detection weights
 ├── src/
-│   ├── detection_tracking.py    # Detection and object tracking pipeline
-│   ├── homography_bev.py        # Planar homography and BEV trajectory conversion
-│   ├── temporal_analytics.py    # Service time distribution & MAE/Bias extraction
-│   └── precedence_dag.py        # Pairwise precedence matrix & DAG transitive reduction
-└── visualization/
-    ├── 01_turnaround_milestones_gt_vs_video.html
-    ├── 02_turnaround_milestones_stats.html
-    ├── 03_ground_service_durations_stats.html
-    └── 04_gt_pairwise_precedence_overall_dag.html
-│   └── 04_gt_pairwise_precedence_overall_dag.html
+│   └── detection_tracking.py    # Detection and object tracking pipeline
 ├── requirements.txt
 └── README.md
