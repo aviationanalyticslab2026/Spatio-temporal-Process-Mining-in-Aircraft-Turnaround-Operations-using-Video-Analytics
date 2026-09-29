@@ -1,2 +1,2 @@
-# Spatio-temporal-Process-Mining-in-Aircraft-Turnaround-Operations-using-Video-Analytics
+# Spatio-temporal Process Mining in Aircraft Turnaround Operations using Video Analytics
 A video-analytics framework that extracts temporal and spatial operational data from apron surveillance videos. It automatically derives activity service times, process precedence relationships, and birds eye view vehicle trajectories to optimize resources, analyze turnaround performance, and power apron simulations.
