@@ -4,14 +4,14 @@ A video-analytics framework that extracts temporal and spatial operational data 
 ## Dataset Description
 ```text
 Location: Gate 59, Haneda Airport.
-Collection Period: 26 days (October 21 – December 9, 2024).
-Sample Size: 146 aircraft turnarounds.
+Collection Period: Between October 21 – November 18, 2024
+Sample Size: 149 aircraft turnarounds.
 ```
 ## Repository Structure
 ```text
 ├── data/
 │   ├── raw_video/               # Surveillance video streams
-│   ├── ground_truth/            # Manual timestamp annotations (n=146)
+│   ├── ground_truth/ 
 │   └── processed/               # Standardized operational datasets (CSV)
 ├── models/
 │   └── yolo26_apron.pt          # YOLO-26 object detection weights
