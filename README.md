@@ -9,14 +9,25 @@ Sample Size: 149 aircraft turnarounds.
 ```
 ## Repository Structure
 ```text
-├── data/
-│   ├── raw_video/               # Surveillance video streams
-│   ├── ground_truth/ 
-│   └── processed/               # Standardized operational datasets (CSV)
-├── models/
-│   └── yolo26_apron.pt          # YOLO-26 object detection weights
-├── src/
-│   └── detection_tracking.py    # Detection and object tracking pipeline
-├── requirements.txt
-└── README.md
+├── README.md                         # Project overview and main documentation
+├── repo_structure.txt                # Raw folder directory listing
+└── data/                             # Data directory
+    ├── Haneda_Flight_Tracker_Ground_Truth.xlsx  # Haneda flight tracking & ground operational data
+    └── yolo26_apron_dataset/         # YOLO-formatted apron object detection dataset
+        ├── data.yaml                 # YOLO dataset path and class configuration
+        ├── README.dataset.txt        # Dataset version and source information
+        ├── README.roboflow.txt       # Roboflow export metadata
+        ├── test/                     # Model testing split
+        │   ├── images/               # Test image frames (.jpg)
+        │   └── labels/               # YOLO format bounding box annotations (.txt)
+        └── train/                    # Model training split
+        │   ├── images/               # Training image frames (.jpg)
+        │   └── labels/               # YOLO format bounding box annotations (.txt)
+        └── valid/                    # Model Validation split
+            ├── images/               # Validation image frames (.jpg)
+            └── labels/               # YOLO format bounding box annotations (.txt)
+   └── models/
+        └── yolo26_apron.pt           # YOLO model(.pt)
+   └── src/
+
 ```
