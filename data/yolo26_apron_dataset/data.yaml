@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 13
+names: ['APS', 'Aerobridge', 'Airplane', 'Baggage truck', 'Catering', 'Dolly', 'Fuel Tanker', 'JCPL', 'Skyloader', 'Tow Tug', 'Tractor', 'ULD', 'Window']
+
+roboflow:
+  workspace: genees-workspace
+  project: haneda_turnaround_combined
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/genees-workspace/haneda_turnaround_combined/dataset/2
