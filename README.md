@@ -12,6 +12,7 @@ Sample Size: 149 aircraft turnarounds.
 ├── README.md                         # Project overview and main documentation
 ├── repo_structure.txt                # Raw folder directory listing
 └── data/                             # Data directory
+    ├── README.txt                    # Link to the same data in yolo26_apron_dataset within ROBOFlow
     ├── Haneda_Flight_Tracker_Ground_Truth.xlsx  # Haneda flight tracking & ground operational data
     └── yolo26_apron_dataset/         # YOLO-formatted apron object detection dataset
         ├── data.yaml                 # YOLO dataset path and class configuration
